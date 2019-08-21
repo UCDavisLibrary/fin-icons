@@ -1,0 +1,24 @@
+{
+  "name": "@ucd-lib/fin-icons",
+  "version": "0.0.1",
+  "description": "Icons for UCD Library DAMS",
+  "main": "fin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCDavisLibrary/fin-icons.git"
+  },
+  "author": "jrmerz@ucdavis.edu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UCDavisLibrary/fin-icons/issues"
+  },
+  "homepage": "https://github.com/UCDavisLibrary/fin-icons#readme",
+  "dependencies": {
+    "@polymer/iron-icon": "^3.0.1",
+    "@polymer/iron-iconset-svg": "^3.0.1",
+    "@polymer/polymer": "^3.3.0"
+  }
+}
