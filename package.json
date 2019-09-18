@@ -1,10 +1,10 @@
 {
   "name": "@ucd-lib/fin-icons",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "Icons for UCD Library DAMS",
-  "main": "fin.js",
+  "main": "fin-icons.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cork-icon-set-generator fin-icons icons"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
     "@polymer/iron-icon": "^3.0.1",
     "@polymer/iron-iconset-svg": "^3.0.1",
     "@polymer/polymer": "^3.3.0"
+  },
+  "devDependencies": {
+    "@ucd-lib/cork-icon-set-generator": "0.0.1"
   }
 }

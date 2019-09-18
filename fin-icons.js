@@ -3,7 +3,7 @@ import '@polymer/iron-iconset-svg/iron-iconset-svg.js';
 
 import {html} from '@polymer/polymer/lib/utils/html-tag.js';
 
-const template = html`<iron-iconset-svg name="fin" size="24">
+const template = html`<iron-iconset-svg name="fin-icons" size="24">
 <svg><defs>
  <g id="360-outline-stacked">
   <title>icon-360-outline-stacked</title>
