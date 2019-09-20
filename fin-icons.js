@@ -5,7 +5,41 @@ import {html} from '@polymer/polymer/lib/utils/html-tag.js';
 
 const template = html`<iron-iconset-svg name="fin-icons" size="24">
 <svg><defs>
- <g id="360-outline-stacked">
+ <g id="account">
+  <g>
+    <style type="text/css">
+    .st0{fill:#008EAA;}
+    .st1{fill:#F3F3F3;}
+  </style>
+    <path class="st0" d="M18.6,20.1c2.4-1.9,3.9-4.9,3.9-8.1c0-5.8-4.7-10.5-10.5-10.5S1.5,6.2,1.5,12c0,3.3,1.5,6.2,3.9,8.1H18.6z"/>
+    <path class="st1" d="M12,22.5c2.5,0,4.8-0.9,6.6-2.4c-0.9-3.2-3.5-5.5-6.6-5.5s-5.7,2.3-6.6,5.5C7.2,21.6,9.5,22.5,12,22.5z"/>
+    <circle class="st1" cx="12" cy="9.9" r="3.5"/>
+  </g>
+</g>
+<g id="close">
+  <g>
+    <polygon points="18.26 8.26 15.74 5.74 12 9.47 8.26 5.74 5.74 8.26 9.47 12 5.74 15.74 8.26 18.26 12 14.53 15.74 18.26 18.26 15.74 14.53 12 18.26 8.26"/>
+  </g>
+</g>
+<g id="grid">
+  <title>icon-grid</title>
+  <rect x="17.08" y="5.5" width="5.42" height="5.42"/>
+  <rect x="9.29" y="5.5" width="5.42" height="5.42"/>
+  <rect x="1.5" y="5.5" width="5.42" height="5.42"/>
+  <rect x="17.08" y="13.08" width="5.42" height="5.42"/>
+  <rect x="9.29" y="13.08" width="5.42" height="5.42"/>
+  <rect x="1.5" y="13.08" width="5.42" height="5.42"/>
+</g>
+<g id="list">
+  <title>icon-list</title>
+  <rect x="1.5" y="5.5" width="3" height="3"/>
+  <rect x="6.61" y="5.51" width="15.89" height="3"/>
+  <rect x="1.5" y="10.5" width="3" height="3"/>
+  <rect x="6.61" y="10.5" width="15.89" height="3"/>
+  <rect x="1.5" y="15.5" width="3" height="3"/>
+  <rect x="6.61" y="15.5" width="15.89" height="3"/>
+</g>
+<g id="360-outline-stacked">
   <title>icon-360-outline-stacked</title>
   <path d="M17.61,16.29V2.72a1.34,1.34,0,0,0-1.34-1.34H2.7A1.34,1.34,0,0,0,1.36,2.72V16.29A1.35,1.35,0,0,0,2.7,17.64H16.27A1.35,1.35,0,0,0,17.61,16.29Zm-15.21,0V2.72a.3.3,0,0,1,.3-.3H16.27a.31.31,0,0,1,.31.3V16.29a.31.31,0,0,1-.31.31H2.7A.3.3,0,0,1,2.4,16.29Z"/>
   <path d="M20.13,18.79V5.21a1.34,1.34,0,0,0-1.34-1.34h-.14v1h.14a.31.31,0,0,1,.3.3V18.79a.31.31,0,0,1-.3.3H5.21a.31.31,0,0,1-.3-.3v-.14h-1v.14a1.34,1.34,0,0,0,1.34,1.34H18.79A1.34,1.34,0,0,0,20.13,18.79Z"/>
@@ -99,24 +133,6 @@ const template = html`<iron-iconset-svg name="fin-icons" size="24">
   </g>
   <path d="M12,1.5A10.5,10.5,0,1,1,1.5,12,10.5,10.5,0,0,1,12,1.5m0-1A11.5,11.5,0,1,0,23.5,12,11.51,11.51,0,0,0,12,.5Z" style="fill:#fff"/>
   <path d="M15.58,11.55,9.74,7.61a.59.59,0,0,0-.94.45v7.88a.59.59,0,0,0,.94.45l5.84-3.94a.57.57,0,0,0,0-.9Z" style="fill:#fff"/>
-</g>
-<g id="grid">
-  <title>icon-grid</title>
-  <rect x="17.08" y="5.5" width="5.42" height="5.42"/>
-  <rect x="9.29" y="5.5" width="5.42" height="5.42"/>
-  <rect x="1.5" y="5.5" width="5.42" height="5.42"/>
-  <rect x="17.08" y="13.08" width="5.42" height="5.42"/>
-  <rect x="9.29" y="13.08" width="5.42" height="5.42"/>
-  <rect x="1.5" y="13.08" width="5.42" height="5.42"/>
-</g>
-<g id="list">
-  <title>icon-list</title>
-  <rect x="1.5" y="5.5" width="3" height="3"/>
-  <rect x="6.61" y="5.51" width="15.89" height="3"/>
-  <rect x="1.5" y="10.5" width="3" height="3"/>
-  <rect x="6.61" y="10.5" width="15.89" height="3"/>
-  <rect x="1.5" y="15.5" width="3" height="3"/>
-  <rect x="6.61" y="15.5" width="15.89" height="3"/>
 </g>
 <g id="search">
   <title>icon-search</title>

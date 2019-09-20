@@ -1,6 +1,6 @@
 {
   "name": "@ucd-lib/fin-icons",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Icons for UCD Library DAMS",
   "main": "fin-icons.js",
   "scripts": {
