@@ -1,11 +1,12 @@
 import '@polymer/iron-icon/iron-icon.js';
 import '@polymer/iron-iconset-svg/iron-iconset-svg.js';
-
+      
 import {html} from '@polymer/polymer/lib/utils/html-tag.js';
+      
+const template = html`<iron-iconset-svg name="fin" size="24">
 
-const template = html`<iron-iconset-svg name="fin-icons" size="24">
-<svg><defs>
- <g id="account">
+    <svg><defs>
+      <g id="account">
   <g>
     <style type="text/css">
     .st0{fill:#008EAA;}
@@ -195,7 +196,6 @@ const template = html`<iron-iconset-svg name="fin-icons" size="24">
   <path d="M20.92,22.5H3.08A1.58,1.58,0,0,1,1.5,20.92V3.08A1.58,1.58,0,0,1,3.08,1.5H20.92A1.58,1.58,0,0,1,22.5,3.08V20.92A1.58,1.58,0,0,1,20.92,22.5Z"/>
   <path d="M15.28,11.55,9.44,7.61a.59.59,0,0,0-.94.45v7.88a.59.59,0,0,0,.94.45l5.84-3.94a.57.57,0,0,0,0-.9Z" style="fill:#fff"/>
 </g>
-</defs></svg>
-</iron-iconset-svg>`;
-
+    </defs></svg></iron-iconset-svg>`;
+      
 document.head.appendChild(template.content);
