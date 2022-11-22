@@ -109,7 +109,7 @@ const template = html`<iron-iconset-svg name="fin-icons" size="24">
 <g id="blank-round">
   <title>icon-blank-circle</title>
   <g style="opacity:0.7000000000000001">
-    <circle cx="12" cy="12" r="10.5" style="color: black"/>
+    <circle cx="12" cy="12" r="10.5" style="fill: black"/>
   </g>
   <path d="M12,1.5A10.5,10.5,0,1,1,1.5,12,10.5,10.5,0,0,1,12,1.5m0-1A11.5,11.5,0,1,0,23.5,12,11.51,11.51,0,0,0,12,.5Z" style="fill:#fff"/>
   <path d="M4.29,9.37H6.92a1.69,1.69,0,0,1,1.82,1.75,1.68,1.68,0,0,1-1.82,1.73H5.64v1.78H4.29Zm2.45,1.15H5.64V11.7h1.1a.59.59,0,1,0,0-1.18Z" style="fill:#fff"/>
